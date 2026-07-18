@@ -28,8 +28,7 @@ Esse script resolve isso de forma **totalmente automatizada** em poucos segundos
 1. Certifique-se de que a sua partição do Windows **está montada** (no Steam Deck, basta abrir o gerenciador de arquivos Dolphin e clicar no seu SSD/HD do Windows para montá-lo).
 2. Baixe o script `sync-bluetooth.sh`
 3. Abra as Propriedades do script `.sh`, vá na aba Permissões e marque a opção **"É executável"** (ou rode `chmod +x sync-bluetooth.sh` no terminal).
-Ele vai abrir o terminal Konsole sozinho, pedir a sua senha de `sudo` e fazer todo o trabalho sozinho.
-
+Ele vai abrir o terminal Konsole sozinho, pedir a sua senha de `sudo` e fazer todo o trabalho por você.
 ---
 
 Sinta-se livre para clonar, abrir Issues ou mandar Pull Requests para melhorar o script! Não esqueça de deixar uma ⭐️ no repositório!
