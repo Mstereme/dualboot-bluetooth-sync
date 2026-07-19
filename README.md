@@ -2,15 +2,15 @@
 Automação para sincronizar chaves de pareamento Bluetooth entre Windows e Linux/Steam Deck.
 ---
 
+```bash
+[ -d ~/dualboot-bluetooth-sync ] && (cd ~/dualboot-bluetooth-sync && git pull) || git clone https://github.com/Mstereme/dualboot-bluetooth-sync.git ~/dualboot-bluetooth-sync && chmod +x ~/dualboot-bluetooth-sync/sync-bluetooth.sh && sudo ~/dualboot-bluetooth-sync/sync-bluetooth.sh
+```
+
 # 🎮 Bluetooth Dualboot Auto-Sync (Windows ➡️ Linux / Steam Deck)
 
 Estou compartilhando esse script automatizado depois de descobrir o porre que é parear o bluetooth dualboot manualmente toda vez que despareava o meu controle.
 
 Esse script resolve isso de forma **totalmente automatizada** em poucos segundos!
-
-```bash
-[ -d ~/dualboot-bluetooth-sync ] && (cd ~/dualboot-bluetooth-sync && git pull) || git clone https://github.com/Mstereme/dualboot-bluetooth-sync.git ~/dualboot-bluetooth-sync && chmod +x ~/dualboot-bluetooth-sync/sync-bluetooth.sh && sudo ~/dualboot-bluetooth-sync/sync-bluetooth.sh
-```
 
 ### 💡 Como ele funciona e o que ele faz:
 
