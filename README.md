@@ -8,6 +8,10 @@ Estou compartilhando esse script automatizado depois de descobrir o porre que é
 
 Esse script resolve isso de forma **totalmente automatizada** em poucos segundos!
 
+```bash
+git clone https://github.com/Mstereme/dualboot-bluetooth-sync.git ~/dualboot-bluetooth-sync && chmod +x ~/dualboot-bluetooth-sync/sync-bluetooth.sh && sudo ~/dualboot-bluetooth-sync/sync-bluetooth.sh
+```
+
 ### 💡 Como ele funciona e o que ele faz:
 
 * **Copia TODOS os pareamentos de uma vez:** Ele entra direto no Registro do Windows (`SYSTEM`), localiza o seu adaptador Bluetooth, captura os hexadecimais de **todos** os dispositivos que você tiver pareado lá e limpa a chave automaticamente.
