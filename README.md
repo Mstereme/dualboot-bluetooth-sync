@@ -13,6 +13,7 @@ if [ -d ~/dualboot-bluetooth-sync ]; then cd ~/dualboot-bluetooth-sync && git fe
 I'm sharing this automated script after discovering what a total hassle it is to manually pair Bluetooth on dual-boot every time my controller would unpair.
 
 This script fixes that in a fully automated way in just a few seconds!
+
 💡 How it works and what it does:
 
 * Copies ALL pairings at once: It accesses the Windows Registry (SYSTEM) directly, locates your Bluetooth adapter, extracts the hex keys for all your paired devices, and automatically cleans up the Link Keys.
