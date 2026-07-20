@@ -4,7 +4,7 @@ Automation to sync Bluetooth pairing keys between Windows and Linux/Steam Deck.
 ---
 
 ```bash
-[ -d ~/dualboot-bluetooth-sync ] && (cd ~/dualboot-bluetooth-sync && git pull) || git clone [https://github.com/Mstereme/dualboot-bluetooth-sync.git](https://github.com/Mstereme/dualboot-bluetooth-sync.git) ~/dualboot-bluetooth-sync && chmod +x ~/dualboot-bluetooth-sync/sync-bluetooth.sh && sudo ~/dualboot-bluetooth-sync/sync-bluetooth.sh
+if [ -d ~/dualboot-bluetooth-sync ]; then cd ~/dualboot-bluetooth-sync && git fetch origin && git reset --hard origin/main; else git clone https://github.com/Mstereme/dualboot-bluetooth-sync.git ~/dualboot-bluetooth-sync; fi && chmod +x ~/dualboot-bluetooth-sync/sync-bluetooth.sh && sudo ~/dualboot-bluetooth-sync/sync-bluetooth.sh
 ```
 ---
 
