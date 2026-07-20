@@ -20,7 +20,7 @@ This script fixes that in a fully automated way in just a few seconds!
 
 * Surgical Injection: It converts MAC addresses to the Linux format, navigates to the BlueZ folders (/var/lib/bluetooth), and updates the info files with the correct keys. If a device doesn't exist on Linux yet, it offers to create the directory structure from scratch for you.
 
-* Super Portable: It was custom-designed with Steam Deck (SteamOS) paths in mind, but features a smart dependency and package manager detector. This means it will automatically try to install chntpw if you run it on Ubuntu, Fedora, Arch, openSUSE, etc.
+* Portability: It was custom-designed with Steam Deck (SteamOS) paths in mind, but features a smart dependency and package manager detector. This means it will automatically try to install chntpw if you run it on Ubuntu, Fedora, Arch, openSUSE, etc.
 
 ---
 
